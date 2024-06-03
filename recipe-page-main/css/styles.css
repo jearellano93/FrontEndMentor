@@ -1,0 +1,38 @@
+:root {
+  /* Colors */
+  /* Primary */
+  --nutmeg: hsl(14, 45%, 36%);
+  --dark-raspberry: hsl(332, 51%, 32%);
+  /* Neutral */
+  --white: hsl(0, 0%, 100%);
+  --rose-white: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --light-grey: hsl(30, 18%, 87%);
+  --wenge-brown: hsl(30, 10%, 34%);
+  --dark-charcoal: hsl(24, 5%, 18%);
+
+  /* Fuentes */
+  --headers: 'Young Serif';
+  --content: 'Outfit'
+}
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--eggshell);
+}
+
+h1, h2, h3 {
+  font-family: var(--headers);
+}
+.container {
+
+}
